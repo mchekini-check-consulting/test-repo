@@ -19,4 +19,11 @@ public class MyFirstController {
     public String python() {
         return "hello world from python";
     }
+
+    @PostMapping("node")
+    public String node() {
+        return "hello world from node";
+    }
+
+
 }
